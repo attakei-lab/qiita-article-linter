@@ -24,8 +24,8 @@ cp rules.example.ts rules.ts
 ## 使い方
 
 ```console
-deno task lint-qiita [Qiita記事のURL]
+deno task main [Qiita記事のURL]
 ```
 
-* Denoランタイムに許可する内容については、`deno.json`の`tasks.lint-qiita`を参照して下さい。
+* Denoランタイムに許可する内容については、`deno.json`の`tasks.main`を参照して下さい。
 * Qiitaの仕様上、URLには限定公開URLを指定することも可能です。

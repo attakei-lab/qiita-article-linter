@@ -1,5 +1,5 @@
 {
   "tasks": {
-    "lint-qiita": "deno run --allow-env --allow-net=qiita.com --allow-read --allow-sys main.ts"
+    "main": "deno run --allow-env --allow-net=qiita.com --allow-read --allow-sys main.ts"
   }
 }
