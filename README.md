@@ -1,4 +1,4 @@
-# qiita-textlinter
+# qiita-article-linter
 
 Qiitaの記事Markdownを、textlintで検証するのが目的のCLI。
 
