@@ -1,5 +1,9 @@
+import { configSync } from "https://deno.land/std/dotenv/mod.ts";
 import { cli } from "npm:textlint@^12.2.3";
 import "./rules.ts";
+
+const cfg = configSync();
+Deno.env.set("QIITA_API_TOKEN", cfg["QIITA_API_TOKEN"]);
 
 // Parse URL
 const articleUrl = Deno.args[0];
@@ -20,6 +24,7 @@ const data = await resp.json();
 // Lint content
 const result = await cli.execute(
   {
+    stdin: true,
     stdinFilename: "article.md",
   },
   data.body,
