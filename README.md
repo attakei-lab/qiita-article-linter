@@ -2,7 +2,7 @@
 
 Qiitaの記事Markdownを、textlintで検証するのが目的のCLI。
 
-~![](demo.gif)
+https://user-images.githubusercontent.com/668834/204597361-e2336534-f509-465b-9f75-8fdbf6a7dd24.mp4
 
 ## 必要環境
 
