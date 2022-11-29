@@ -13,13 +13,11 @@ Qiitaの記事Markdownを、textlintで検証するのが目的のCLI。
 1. 実行者依存のファイルを準備します。
 
 ``` console
-cp .env.example .env
 cp .textlintrc.example .textlintrc
 cp rules.example.ts rules.ts
 ```
 
-2. APIトークンを入手して、`.env`上に保存します。トークンの入手方法は`.env`に記載されています。
-3. ルール関連ファイルをコピーします。
+2. ルール関連ファイルをコピーします。
   * `rules.ts`に追加で必要になるルールパッケージを追加します。追加時のフォーマットは`rules.ts`に記載されています。
   * `.textlintrc`に適用したいルールを記載します。
 
