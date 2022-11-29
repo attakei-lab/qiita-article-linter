@@ -2,6 +2,8 @@
 
 Qiitaの記事Markdownを、textlintで検証するのが目的のCLI。
 
+~![](demo.gif)
+
 ## 必要環境
 
 * deno
